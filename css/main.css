@@ -1,8 +1,8 @@
 @import url(http://fonts.googleapis.com/css?family=Raleway:400,300);
-@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic);
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400);
 
 body {
-	font-family: 'Lato', 'Helvetica-Neue', 'Helvetica', sans-serif;
+	font-family: 'Lato', 'Helvetica-Neue', Helvetica, sans-serif;
 	font-size: 18px;
 	font-weight: 300;
 	background-image: url('../img/background.jpg');
@@ -73,11 +73,11 @@ main {
 	opacity: 0.9;
 }
 
-section.generalInfo {
+.generalInfo {
 	padding: 1em;
 }
 
-section.menu {
+.menu {
 	padding: 1em;
 	background-color: rgb(207,205,140);
 }
